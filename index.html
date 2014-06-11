@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=" Formulario de carga y consulta de eventos" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<h1>
+			Formulario Inventr
+		</h1>
+	</header>
+	<nav>
+		<ul class="menu nav nav-pills">
+			<li>
+				<a href="#">Incio</a>
+			</li>
+			<li>
+				<a href="#">Eventos</a>
+			</li>
+			<li>
+				<a href="#">Zonas</a>
+			</li>
+			<li>
+				<a href="#">Mesas</a>
+			</li>
+		</ul>
+	</nav>
+	<section class="row">
+		<div class="formulario col col-sm-6">
+			<form action="" role="form">
+				<label for="evento_codigo">Evento Codigo</label>
+				<input type="text" class="form-control" id="evento_codigo" placeholder="Introduce Codigo del Evento" style="width:500px"/>
+				<label for="descripcion_evento">Descripcion del Evento</label>
+				<input type="text" class="form-control" id="descripcion_evento" placeholder="Introduce uan descripción del Evento" style="width:500px"/>
+				<label for="lugar_evento">Lugar</label>
+				<input type="text" class="form-control" id="lugar_evento" placeholder="Introduce Lugar del Evento" style="width:500px"/>
+				<label for="fecha_evento">fecha del Evento </label>
+				<input type="date" class="form-control" id="fecha_evento" style="width:200px" />
+				<label for="fecha_venta">fecha Inicio Venta </label>
+				<input type="date" class="form-control" id="fecha_venta" style="width:200px"/>
+
+			</form>
+		</div>
+		<div class="consulta col col-sm-6">
+			<form action="" role="form">
+				<label for="buscador">Buscar</label>
+				<input type="text" class="form-control" id="buscador" placeholder="Introduce la Busqueda" style="width:500px"/>
+				<button type="submit" class="btn btn-primary btn-sm">BUSCAR</button>
+			</form>
+		</div>
+	</section>	
+	<footer class="center">
+		<p>
+			powered by Miguel Cárdenas &copy 2014
+		</p>
+		<p class="foo"> 
+			Inventr
+		</p>
+	</footer>
+</body>
+</html>
